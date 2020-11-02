@@ -6,7 +6,7 @@
         {
             "type": "shell",
             "label": "g++", //这里注意一下，见下文
-            "command": "E:\\MinGW\\bin\\g++.exe",
+            "command": "E:\\mingw64\\bin\\g++.exe",
             "args": [
                 "-g",
                 "${file}",
@@ -14,7 +14,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "E:\\MinGW\\bin"
+                "cwd": "E:\\mingw64\\bin"
             },
             "problemMatcher": [
                 "$gcc"
